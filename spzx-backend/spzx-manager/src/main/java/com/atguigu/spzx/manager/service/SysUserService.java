@@ -9,4 +9,6 @@ public interface SysUserService {
     public LoginVo login(LoginDto loginDto);
 
     public SysUser getUserInfo(String token);
+
+    public void logout(String token);
 }

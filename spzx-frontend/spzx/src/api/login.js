@@ -35,3 +35,11 @@ export const GetValidateCode = () => {
     method: 'get'
   })
 }
+
+// 登出接口
+export const Logout = () => {
+  return request({
+    url: '/admin/system/index/logout',
+    method: 'get',
+  })
+}
